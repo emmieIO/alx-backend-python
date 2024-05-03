@@ -8,6 +8,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     def myfunc(multiplier: float) -> float:
         """inner function"""
         return multiplier * multiplier
-    
+
     return myfunc
-        
