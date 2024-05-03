@@ -4,4 +4,5 @@ import math
 
 
 def floor(n: float) -> int:
+    """2-floor.py"""
     return math.floor(n)
