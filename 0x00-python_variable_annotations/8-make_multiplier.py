@@ -5,8 +5,8 @@ from typing import Callable
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """8-make_multiplier.py"""
-    def myfunc(multiplier: float) -> float:
+    def inner(num: float) -> float:
         """inner function"""
-        return multiplier * multiplier
+        return num ** 2
 
-    return myfunc
+    return inner
